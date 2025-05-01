@@ -1,4 +1,4 @@
-# Esquema del Sistema - POS EXODIA
+# Esquema del Sistema - POS MAGI
 ## Componentes Principales
 - **Interfaz (ui/)**: Maneja la interfaz gráfica con customtkinter.
 - **Base de datos (core/)**: Gestiona datos con SQLite (productos, ventas, comisiones, recordatorios).

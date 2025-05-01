@@ -1,6 +1,6 @@
-# Plan de Refactorización - POS EXODIA
-Generado el 2025-04-30 19:16
-Directorio: C:\Users\Daniel\Documents\Versions\Exodia 8\Exidia 7\EXODIA
+# Plan de Refactorización - POS MAGI
+Generado el 2025-04-30 19:40
+Directorio: C:\Users\Daniel\Documents\Versions\Exodia 8\\Exidia 7\\POS_MAGI
 
 ## Tareas Priorizadas
 - - Añadir try-except en funciones críticas (ej., add_to_cart, finalize_sale).

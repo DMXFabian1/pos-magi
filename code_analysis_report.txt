@@ -1,0 +1,470 @@
+Analizando proyecto POS MAGI...
+
+Mapeando estructura de carpetas...
+==================================================
+Informe de Análisis de Código - POS MAGI
+==================================================
+
+Mapa de la carpeta:
+POS_MAGI/
+  analyze_code.py
+  analyze_code_backup.py
+  .git/
+    hooks/
+    info/
+    objects/
+      05/
+      07/
+      0a/
+      0b/
+      0c/
+      0e/
+      0f/
+      12/
+      17/
+      19/
+      20/
+      22/
+      25/
+      27/
+      28/
+      2a/
+      2d/
+      2f/
+      30/
+      32/
+      34/
+      35/
+      36/
+      38/
+      3c/
+      3e/
+      40/
+      43/
+      44/
+      46/
+      49/
+      4a/
+      4b/
+      4f/
+      50/
+      52/
+      54/
+      59/
+      5b/
+      5f/
+      60/
+      62/
+      67/
+      6a/
+      6b/
+      6e/
+      6f/
+      72/
+      74/
+      75/
+      76/
+      77/
+      79/
+      7c/
+      86/
+      88/
+      89/
+      8b/
+      8f/
+      90/
+      95/
+      96/
+      98/
+      9b/
+      9e/
+      9f/
+      a8/
+      a9/
+      ab/
+      ac/
+      ae/
+      af/
+      b3/
+      b4/
+      b6/
+      bd/
+      c1/
+      c3/
+      cf/
+      d0/
+      d1/
+      d3/
+      d5/
+      d8/
+      da/
+      de/
+      e5/
+      e6/
+      f2/
+      f4/
+      f5/
+      f7/
+      fa/
+      fb/
+      fd/
+      fe/
+      ff/
+      info/
+      pack/
+    refs/
+      heads/
+      tags/
+  POS_PROJECT/
+    assets/
+      icons/
+    config/
+    src/
+      main.py
+      __init__.py
+      core/
+        backup/
+          backup_manager.py
+          __init__.py
+          __pycache__/
+        config/
+          config.py
+          controller.py
+          db_manager.py
+          db_setup.py
+          __init__.py
+          __pycache__/
+        utils/
+          tooltips.py
+          utils.py
+          __init__.py
+          __pycache__/
+      icons/
+      modules/
+        auth/
+          auth_manager.py
+          __init__.py
+          __pycache__/
+        clients/
+          client_manager.py
+          __init__.py
+          __pycache__/
+        inventory/
+          entradas_salidas_logic.py
+          entradas_salidas_manager.py
+          inventory_manager.py
+          __init__.py
+          __pycache__/
+        maintenance/
+          maintenance.py
+          __init__.py
+          __pycache__/
+        products/
+          product_manager.py
+          product_manager_logic.py
+          product_manager_ui.py
+          product_manager_window.py
+          __init__.py
+          __pycache__/
+        reports/
+          reports_logic.py
+          reports_manager.py
+          __init__.py
+          __pycache__/
+        sales/
+          pos_ventas.py
+          __init__.py
+          apartados/
+            apartados_actions.py
+            apartados_creation_window.py
+            apartados_data.py
+            apartados_logic.py
+            apartados_manager.py
+            apartados_tab.py
+            apartados_ui.py
+            clientes_tab.py
+            __init__.py
+            __pycache__/
+          presupuestos/
+            presupuestos_manager.py
+            __init__.py
+            __pycache__/
+          __pycache__/
+        users/
+          users_manager.py
+          __init__.py
+          __pycache__/
+      scripts/
+        add_random_clients.py
+      ui/
+        generador_codigos.py
+        navigation_manager.py
+        qr_generator.py
+        ui_components.py
+        __init__.py
+        __pycache__/
+      utils/
+        client_utils.py
+        pagination.py
+        ticket_utils.py
+        ui_utils.py
+        updater.py
+        __pycache__/
+      __pycache__/
+    tests/
+      test_ticket_utils.py
+      __pycache__/
+    tickets/
+    tools/
+      check_structure_and_imports.py
+  sales_reports/
+    abonos/
+    modificaciones/
+
+Resumen:
+Archivos .py encontrados: 60
+Líneas totales de código: 15859
+Clases definidas: 37
+Funciones definidas: 632
+Bloques try-except: 293
+Archivos con logging: 40
+Comentarios detectados: 724
+Docstrings detectados: 119
+Consultas SQL detectadas: 138
+Valores hardcoded detectados: 3
+Posibles problemas de rendimiento: 27
+Archivos con customtkinter: 26
+
+Grafo de dependencias:
+
+Dependencias externas detectadas:
+- unittest
+- bcrypt
+- PosVentas
+- LOGS_DIR
+- CONFIG
+- json
+- ApartadosActions
+- Paragraph
+- GeneradorCodigos
+- customtkinter
+- exportar_configuraciones
+- ImageTk
+- win32clipboard
+- keyboard
+- BackupManager
+- Image
+- ApartadosData
+- platform
+- Paginator
+- SALES_REPORTS_DIR
+- validate_numeric_entry
+- QR_DIR
+- threading
+- generar_ticket_pdf
+- abrir_gestion_productos
+- ProductManagerWindow
+- webbrowser
+- Any
+- ClientesTab
+- Counter
+- RotatingFileHandler
+- csv
+- ast
+- check_disk_space
+- PhotoImage
+- inicializar_db
+- ToolTip
+- logging
+- traceback
+- ttk
+- Spacer
+- IMAGES_DIR
+- UsersManager
+- win32print
+- EntradasSalidasManager
+- Controller
+- create_labeled_entry
+- buscar_clientes_reutilizable
+- generate_product_labels
+- matplotlib.pyplot
+- SimpleDocTemplate
+- requests
+- AuthManager
+- ProductManagerLogic
+- INVENTORY_REPORTS_DIR
+- simpledialog
+- ReportesManager
+- getSampleStyleSheet
+- ApartadosUI
+- Toplevel
+- shutil
+- Dict
+- generar_etiqueta
+- pyperclip
+- letter
+- ApartadosLogic
+- validate_string
+- create_field
+- Path
+- tkinter
+- Canvas
+- abrir_mantenimiento
+- re
+- validate_path
+- numpy
+- ImageDraw
+- filedialog
+- ApartadoCreationWindow
+- DatabaseManager
+- DB_NAME
+- win32ui
+- create_treeview
+- networkx
+- NavigationManager
+- subprocess
+- EntradasSalidasLogic
+- random
+- ApartadosManager
+- InventoryManager
+- messagebox
+- sanitize_filename
+- Calendar
+- timedelta
+- canvas
+- create_labeled_combobox
+- Network
+- qrcode
+- ApartadosTab
+- ReportesLogic
+- ClientManager
+- generar_qr
+- List
+- ProductManagerUI
+- DOCS_DIR
+- PresupuestosManager
+- io
+- defaultdict
+- time
+- UPDATE_URL
+- BACKUPS_DIR
+- QRGenerator
+- mostrar_ventana_seleccion
+- ImageWin
+- ImageFont
+
+Consultas SQL detectadas:
+- POS_PROJECT\src\main.py: SELECT...
+- POS_PROJECT\src\core\config\controller.py: SELECT...
+- POS_PROJECT\src\core\config\controller.py: INSERT...
+- POS_PROJECT\src\core\config\controller.py: UPDATE...
+- POS_PROJECT\src\core\config\db_manager.py: UPDATE...
+- [Optimización] Centraliza consultas SQL en core/database.py.
+
+Valores hardcoded detectados:
+- analyze_code.py: C:\Users\Daniel\Documents\Versions\Exodia 8\\Exidi...
+- analyze_code_backup.py: C:\Users\Daniel\Documents\Versions\Exodia 8\Exidia...
+- POS_PROJECT\src\core\utils\utils.py: /\|?*...
+- [Optimización] Mueve valores a config.py o .env.
+
+Posibles problemas de rendimiento:
+- analyze_code.py:78 - Función '_analyze_file_content': Bucles anidados
+- analyze_code.py:162 - Función '_generate_interactive_graph': Bucles anidados
+- analyze_code.py:180 - Función '_generate_report': Bucles anidados
+- analyze_code.py:280 - Función '_generate_documentation': Bucles anidados
+- analyze_code_backup.py:78 - Función '_analyze_file_content': Bucles anidados
+- analyze_code_backup.py:162 - Función '_generate_interactive_graph': Bucles anidados
+- analyze_code_backup.py:180 - Función '_generate_report': Bucles anidados
+- analyze_code_backup.py:280 - Función '_generate_documentation': Bucles anidados
+- POS_PROJECT\src\core\config\config.py:127 - Función 'clean_config': Bucles anidados
+- POS_PROJECT\src\core\config\controller.py:375 - Función 'limpiar_formulario': Bucles anidados
+- POS_PROJECT\src\core\config\controller.py:429 - Función 'revisar_datos': Bucles anidados
+- POS_PROJECT\src\core\config\db_manager.py:55 - Función 'migrate_dates': Bucles anidados
+- POS_PROJECT\src\modules\inventory\entradas_salidas_logic.py:41 - Función '_exportar_pdf': Bucles anidados
+- POS_PROJECT\src\modules\maintenance\maintenance.py:268 - Función 'load_config_values': Bucles anidados
+- POS_PROJECT\src\modules\maintenance\maintenance.py:588 - Función 'load_config_issues': Bucles anidados
+- POS_PROJECT\src\modules\products\product_manager_logic.py:218 - Función 'cargar_productos': Bucles anidados
+- POS_PROJECT\src\modules\products\product_manager_logic.py:391 - Función 'eliminar_seleccion': Bucles anidados
+- POS_PROJECT\src\modules\products\product_manager_logic.py:568 - Función 'edit_product': Bucles anidados
+- POS_PROJECT\src\modules\reports\reports_logic.py:235 - Función '_exportar_pdf': Bucles anidados
+- POS_PROJECT\src\modules\reports\reports_logic.py:427 - Función 'generar_reporte_analisis_datos': Bucles anidados
+- POS_PROJECT\src\modules\sales\pos_ventas.py:711 - Función 'actualizar_tabla': Bucles anidados
+- POS_PROJECT\src\modules\sales\apartados\apartados_actions.py:677 - Función 'ver_detalles': Bucles anidados
+- POS_PROJECT\src\modules\sales\apartados\apartados_logic.py:635 - Función 'modificar_productos_apartado': Bucles anidados
+- POS_PROJECT\src\modules\sales\apartados\apartados_logic.py:732 - Función 'confirmar_modificacion_productos': Bucles anidados
+- POS_PROJECT\src\modules\sales\apartados\clientes_tab.py:259 - Función 'crear_apartado': Bucles anidados
+- POS_PROJECT\src\modules\sales\presupuestos\presupuestos_manager.py:105 - Función 'agregar_productos': Bucles anidados
+- POS_PROJECT\src\utils\ui_utils.py:7 - Función 'mostrar_ventana_seleccion': Bucles anidados
+- [Optimización] Revisa bucles anidados y optimiza consultas SQL.
+
+Archivos con uso de customtkinter:
+- analyze_code.py
+- analyze_code_backup.py
+- POS_PROJECT\src\main.py
+- POS_PROJECT\src\core\config\controller.py
+- POS_PROJECT\src\modules\clients\client_manager.py
+- POS_PROJECT\src\modules\inventory\entradas_salidas_manager.py
+- POS_PROJECT\src\modules\inventory\inventory_manager.py
+- POS_PROJECT\src\modules\maintenance\maintenance.py
+- POS_PROJECT\src\modules\products\product_manager.py
+- POS_PROJECT\src\modules\products\product_manager_logic.py
+- POS_PROJECT\src\modules\products\product_manager_ui.py
+- POS_PROJECT\src\modules\products\product_manager_window.py
+- POS_PROJECT\src\modules\reports\reports_manager.py
+- POS_PROJECT\src\modules\sales\pos_ventas.py
+- POS_PROJECT\src\modules\sales\apartados\apartados_actions.py
+- POS_PROJECT\src\modules\sales\apartados\apartados_creation_window.py
+- POS_PROJECT\src\modules\sales\apartados\apartados_manager.py
+- POS_PROJECT\src\modules\sales\apartados\apartados_ui.py
+- POS_PROJECT\src\modules\sales\apartados\clientes_tab.py
+- POS_PROJECT\src\modules\sales\presupuestos\presupuestos_manager.py
+- POS_PROJECT\src\modules\users\users_manager.py
+- POS_PROJECT\src\ui\generador_codigos.py
+- POS_PROJECT\src\ui\navigation_manager.py
+- POS_PROJECT\src\ui\ui_components.py
+- POS_PROJECT\src\utils\pagination.py
+- POS_PROJECT\src\utils\ui_utils.py
+- [Optimización] Asegúrate de que la interfaz sea modular (ej., ui/ventas.py, ui/productos.py).
+
+Posibles problemas con PyInstaller:
+- analyze_code.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- analyze_code_backup.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\main.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\core\config\controller.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\clients\client_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\inventory\entradas_salidas_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\inventory\inventory_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\maintenance\maintenance.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\products\product_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\products\product_manager_logic.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\products\product_manager_ui.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\products\product_manager_window.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\reports\reports_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\sales\pos_ventas.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\sales\apartados\apartados_actions.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\sales\apartados\apartados_creation_window.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\sales\apartados\apartados_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\sales\apartados\apartados_ui.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\sales\apartados\clientes_tab.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\sales\presupuestos\presupuestos_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\modules\users\users_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\ui\generador_codigos.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\ui\navigation_manager.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\ui\ui_components.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\utils\pagination.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\utils\ui_utils.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+- POS_PROJECT\src\utils\updater.py: Asegúrate de incluir esta dependencia en PyInstaller con --add-data
+
+Puntos de mejora:
+- [Manejo de errores] Añade try-except en consultas SQLite, conexiones de red, y actualizaciones.
+- [Documentación] Añade comentarios y docstrings.
+- [Documentación] Añade docstrings a funciones y clases.
+- [Escalabilidad] Añade store_id a tablas SQLite para múltiples tiendas.
+
+Generando documentación...
+README.md generado.
+SCHEMA.md generado.
+
+Generando plan de refactorización...
+REFACTOR.md generado.
+Grafo interactivo generado en dependencies.html

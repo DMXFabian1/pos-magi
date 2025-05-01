@@ -1,12 +1,119 @@
-# POS EXODIA - Documentación
-Generado automáticamente el 2025-04-30 19:16
+# POS MAGI - Documentación
+Generado automáticamente el 2025-04-30 19:40
 
 ## Descripción
-POS EXODIA es un sistema de punto de venta para una tienda de uniformes, diseñado para escanear productos, gestionar ventas, comisiones, recordatorios, y notificaciones por WhatsApp. Usa customtkinter para la interfaz, SQLite para la base de datos, y se distribuye como .exe.
+POS MAGI es un sistema de punto de venta para una tienda de uniformes, diseñado para escanear productos, gestionar ventas, comisiones, recordatorios, y notificaciones por WhatsApp. Usa customtkinter para la interfaz, SQLite para la base de datos, y se distribuye como .exe.
 
 ## Estructura de la carpeta
-EXODIA/
+POS_MAGI/
   analyze_code.py
+  analyze_code_backup.py
+  .git/
+    hooks/
+    info/
+    objects/
+      05/
+      07/
+      0a/
+      0b/
+      0c/
+      0e/
+      0f/
+      12/
+      17/
+      19/
+      20/
+      22/
+      25/
+      27/
+      28/
+      2a/
+      2d/
+      2f/
+      30/
+      32/
+      34/
+      35/
+      36/
+      38/
+      3c/
+      3e/
+      40/
+      43/
+      44/
+      46/
+      49/
+      4a/
+      4b/
+      4f/
+      50/
+      52/
+      54/
+      59/
+      5b/
+      5f/
+      60/
+      62/
+      67/
+      6a/
+      6b/
+      6e/
+      6f/
+      72/
+      74/
+      75/
+      76/
+      77/
+      79/
+      7c/
+      86/
+      88/
+      89/
+      8b/
+      8f/
+      90/
+      95/
+      96/
+      98/
+      9b/
+      9e/
+      9f/
+      a8/
+      a9/
+      ab/
+      ac/
+      ae/
+      af/
+      b3/
+      b4/
+      b6/
+      bd/
+      c1/
+      c3/
+      cf/
+      d0/
+      d1/
+      d3/
+      d5/
+      d8/
+      da/
+      de/
+      e5/
+      e6/
+      f2/
+      f4/
+      f5/
+      f7/
+      fa/
+      fb/
+      fd/
+      fe/
+      ff/
+      info/
+      pack/
+    refs/
+      heads/
+      tags/
   POS_PROJECT/
     assets/
       icons/
@@ -116,6 +223,11 @@ EXODIA/
 ## Módulos principales
 
 ### analyze_code.py
+- **Clases**: CodeAnalyzer
+- **Funciones principales**: main, __init__, analyze, _collect_files, _map_folder_structure
+- **Dependencias**: Ninguna
+
+### analyze_code_backup.py
 - **Clases**: CodeAnalyzer
 - **Funciones principales**: main, __init__, analyze, _collect_files, _map_folder_structure
 - **Dependencias**: Ninguna
