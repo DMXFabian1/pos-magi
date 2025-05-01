@@ -1,0 +1,61 @@
+{
+  "__COMENTARIOS__": {
+    "TALLAS": "Lista de tallas disponibles para los productos (números, estándares como XS-XXL, y categorías especiales).",
+    "COLORES": "Lista de colores disponibles para los productos.",
+    "GENEROS": "Lista de géneros para los productos (Mujer, Hombre, Unisex).",
+    "MARCAS": "Lista de marcas de los productos.",
+    "ULTIMA_MARCA": "Última marca seleccionada por el usuario.",
+    "ULTIMO_COLOR": "Último color seleccionado por el usuario.",
+    "NIVELES_EDUCATIVOS": "Lista de niveles educativos asociados a los productos (por ejemplo, uniformes escolares).",
+    "TIPOS_PRENDA": "Lista de tipos de prenda (categorías generales).",
+    "TIPOS_PIEZA": "Lista de tipos específicos de piezas de ropa.",
+    "ATRIBUTOS": "Lista de atributos o características de los productos.",
+    "UBICACIONES": "Lista de ubicaciones (por ejemplo, sucursales o regiones).",
+    "ESCUDOS": "Opciones para incluir o no un escudo en los productos."
+  },
+  "TALLAS": [
+    "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "16", "18", "20",
+    "28", "32", "34", "36", "38", "40", "42", "44", "46", "48",
+    "XS", "S", "M", "L", "XL", "XXL", "XXXL", "XXXXL",
+    "CH", "MD", "GD", "EXG",
+    "Uni", "ESP", "NT",
+    "0-0", "0-2", "3-5", "6-8", "9-12", "13-18", "CH-MD", "GD-EXG", "Dama"
+  ],
+  "COLORES": [
+    "Rojo", "Azul", "Blanco", "Rosa", "Beige", "Amarillo", "Café", "Vino", "Gris",
+    "Azul Marino", "Negro", "Verde", "Azul Rey", "Naranja"
+  ],
+  "GENEROS": [
+    "Mujer", "Hombre", "Unisex"
+  ],
+  "MARCAS": [
+    "Claudia", "Leo", "Prowear", "Lobito", "Clase"
+  ],
+  "ULTIMA_MARCA": "Clase",
+  "ULTIMO_COLOR": "Naranja",
+  "NIVELES_EDUCATIVOS": [
+    "Preescolar", "Primaria", "Secundaria", "Bachillerato", "Universidad"
+  ],
+  "TIPOS_PRENDA": [
+    "Accesorio", "Básico", "Deportivo", "Escolta", "Interior", "Oficial"
+  ],
+  "TIPOS_PIEZA": [
+    "Bata", "Boina", "Calceta", "Calcetín", "Camisa", "Chaleco", "Chamarra",
+    "Corbata", "Corbatín", "Falda", "Filipina", "Guante", "Jumper", "Malla",
+    "Mandil", "Moño", "Pantalón", "Pants Suelto", "Playera", "Saco", "Suéter",
+    "Pants 2pz", "Pants 3pz", "Short"
+  ],
+  "ATRIBUTOS": [
+    "4 tablas", "Algodón", "Chazarilla", "Corazón", "Cuello Redondo", "Cuello V",
+    "Deportivo", "Electromecánica", "Escoces", "Escolar", "Gales", "Interior",
+    "Laboratorio", "Liso", "Manga Corta", "Manga Larga", "Mezclilla", "Pique",
+    "Plisada", "Polilana", "Polo", "Popelina", "Pretina", "Punto", "Resorte",
+    "Tableado", "Tortuga", "Botones"
+  ],
+  "UBICACIONES": [
+    "San Felipe", "Comunidad", "Sin Información"
+  ],
+  "ESCUDOS": [
+    "Con Escudo", "Sin Escudo"
+  ]
+}

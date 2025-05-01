@@ -1,0 +1,17 @@
+===== Comprobante de Abono =====
+
+Apartado ID: 6
+Cliente: Miguel Hernández Garrido
+Registrado por: admin
+Fecha: 2025-04-30 08:55:44
+
+Productos:
+- SKU000001 (Camisa Azul) (x2) - $150.00
+
+Subtotal: $300.00
+Anticipo Anterior: $70.00
+Monto del Abono: $150.00
+Anticipo Total: $220.00
+Saldo Pendiente: $80.00
+
+=============================

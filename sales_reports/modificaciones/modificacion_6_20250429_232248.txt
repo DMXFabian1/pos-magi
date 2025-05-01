@@ -1,0 +1,20 @@
+===== Comprobante de Modificación de Apartado =====
+
+ID Apartado: 6
+Cliente: Miguel Hernández Garrido
+Usuario: admin
+Fecha: 2025-04-29 23:22:48
+
+Productos Antiguos:
+- SKU000001 (Camisa Azul) (x5) - $150.00
+
+Subtotal Antiguo: $750.00
+
+Productos Nuevos:
+- SKU000001 (Camisa Azul) (x4) - $150.00
+
+Subtotal Nuevo: $600.00
+Anticipo: $70.00
+Saldo Pendiente: $530.00
+
+=====================================
